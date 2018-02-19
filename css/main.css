@@ -1,0 +1,363 @@
+/**********************************************
+ GENERAL 
+ *********************************************/
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+
+}
+
+/**********************************************
+ HEADER 
+ *********************************************/
+
+ #logo {
+ 	text-align: center;
+ }
+
+ .main-header {
+ 	margin: 0 0 0 0;
+ 	padding: 15px 0 0 0;
+ 	overflow: auto;
+ 	position: fixed;
+ 	width: 100%;
+ 	top: 0;
+ 	background-color: rgba(0, 0, 0, 0.8);
+ 	z-index: 1;
+ }
+
+ h1 {
+ 	color: #fff;
+ 	font-family: sans-serif;
+ 	margin: 8px 0 3px 0;
+ 	font-size: 0.9em;
+ }
+
+ h2 {
+ 	color: #fff;
+ 	font-family: sans-serif;
+ 	margin: 3px 0 10px 0;
+ 	font-size: 0.7em;
+ }
+
+ /**********************************************
+ NAV 
+ *********************************************/
+
+ nav { 
+ 	text-align: center;
+ 	padding: 5px 0 5px 0;
+
+ }
+
+ nav a {
+ 	color: #fff;
+ 	padding: 0 2px;
+
+ }
+
+ nav ul {
+ 	list-style: none;
+ 	margin: 5px 0;
+ 	padding: 0;
+ }
+ nav li {
+ 	display: inline-block;
+ }
+
+ nav a:hover {
+ 	color: #990000;
+ }
+ nav a.selected {
+ 	color: #990000;
+ }
+
+/**********************************************
+ BANNER
+ *********************************************/
+
+ .banner {
+ 	text-align: center;
+ 	padding: 60px 0 30px 0;
+ 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+ 	            url(../img/back1.jpg) no-repeat center / cover;
+
+
+ }
+
+ .banner p {
+ 	color: #ffffff;
+ 	font-family: 'Candal', sans-serif;
+ }
+ 
+ .arrow {
+ 	width: 40px;
+ }
+ 
+ .row {
+ 	padding: 115px 0 100px;
+ }
+
+ #hero h1 {
+ 	padding-top: 60px;
+ 	font-size: 3em;
+ 	font-family: 'Raleway', sans-serif;
+ }
+
+ #hero p {
+ 	padding: 45px 40px 25px;
+ 	margin-bottom: 20px;
+ 	font-family: 'Raleway', sans-serif;
+
+ }
+
+ #hero button {
+  padding: 23px 39px 18px 39px;
+  color: #FFF;
+  background-color: #800000;
+  font-size: 10px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 35%;
+  border: none;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+
+ /**********************************************
+ SECTION 
+ *********************************************/
+ 
+ .wrapper {
+ 	max-width: 1000px;
+ 	margin: 0 auto;
+ 	padding: 40px 5% 40px 5%;
+ 	box-sizing: border-box;
+ }
+
+ #gallery {
+ 	list-style: none;
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ img {
+ 	max-width: 100%;
+ }
+ 
+ #gallery li {
+ 	float: left;
+ 	width: 45%;
+ 	margin: 2.5%;
+ 	background-color: #e6e6e6;
+ }
+ 
+ #gallery p {
+ 	font-size: 0.85em;
+ 	color: #000000;
+ 	padding: 5%;
+ 	margin: 0;
+ }
+
+ 
+
+
+ /**********************************************
+ FOOTER
+ *********************************************/
+
+ .main-footer {
+ 	text-align: center;
+ 	clear: both;
+ 	padding: 40px;
+ 	background-color: rgba(0, 0, 0, 0.9);
+ }
+
+ footer p {
+ 	font-size: 0.85em;
+  color: #fff;
+ }
+
+ img {
+ 	size:2em;
+
+ }
+
+ .icona-social {
+  display: block;
+ 	width: 35px;
+ 	height: 35px;
+ 	margin: 10px auto 40px;
+ 	color: #800000;
+  clear: both;
+ }
+
+ /**********************************************
+ ABOUT 
+ *********************************************/
+
+ .container {
+ 	padding: 40px 0 40px 0;
+ }
+
+ .foto-profilo {
+ 	display: block;
+ 	max-width: 200px;
+ 	margin: 0 auto 40px;
+ 	border-radius: 50%;
+ }
+
+ 
+
+ #about p, #about h3 {
+ 	color: #fff;
+ }
+.details-small {
+  display: block;
+	width: 126px;
+	margin: 9px auto 0;
+	background: #800000;
+	padding: 9px 0;
+	border-radius: 5px;
+	color: #fff;
+  clear: both;
+
+}
+
+/**********************************************
+ FORM
+ *********************************************/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #161a1d;
+}
+
+form {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border-radius: 25px;
+
+
+}
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 12px;
+  height: 20px;
+  margin: 10px 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #67757e;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+
+}
+
+
+
+.button {
+  padding: 9px 31px;
+  background: 0 0;
+  color: #800000;
+  font-size: 12px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 35%;
+  margin-bottom: 10px;
+  border: 1px solid #f65151;
+  text-transform: uppercase;
+  float: right;
+}
+ .button:hover {
+ 	background: #800000;
+ 	color: #fff; 
+ }
+
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  padding-top: 10px;
+  font-size: 0.85em;
+}
+
+legend {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+
+/**********************************************
+ SOCIAL
+ *********************************************/
+
+
+ /**********************************************
+ CONTACT
+ *********************************************/
+ 
+ #contact-info {
+ 	list-style: none;
+ 	padding: 0;
+ 	margin: 0;
+ }
+
+
+ #contact-info a {
+    color: #000000;
+    display: block;
+ 	min-height: 20px;
+ 	background-repeat: no-repeat;
+ 	background-size: 20px 20px;
+ 	padding: 0 0 0 30px;
+ 	margin: 0 0 10px;
+ }
+ 
+ #contact-info li.phone a {
+ 	background-image: url(../img/phone.jpg);
+ }
+
+ #contact-info li.mail a {
+ 	background-image: url(../img/mail.png);
+ }

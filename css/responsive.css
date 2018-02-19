@@ -1,0 +1,88 @@
+@media screen and (min-width: 480px) {
+
+/**********************************************
+ CONTACT
+ *********************************************/
+ 
+  #info {
+  	width: 50%;
+  	float: left;
+  }
+
+  #contatti {
+  	width: 40%;
+  	float: right;
+  }
+
+  form {
+    max-width: 480px;
+  }
+
+  #form {
+   margin: 20px 20px 20px 50%;
+
+  }
+
+  
+}
+
+
+@media screen and (min-width: 660px) {
+
+/**********************************************
+ ABOUT
+ *********************************************/
+
+  .foto-profilo {
+  	float: left;
+  	margin: 0 5% 40px 0;
+  }
+
+/**********************************************
+ PORTFOLIO
+ *********************************************/  
+
+   #gallery li {
+   	width: 28.33333333%;
+   }
+
+/**********************************************
+ HEADER
+ *********************************************/ 
+
+   #logo {
+   	float: left;
+   	width: 45%;
+   	margin-left: 5%;
+    text-align: left;
+   } 
+
+   nav {
+   	float: right;
+   	width: 45%;
+   	margin-right: 5%;
+    background: none;
+    text-align: right;
+    
+   } 
+
+   nav a {
+    padding: 0 5px;
+    font-weight: bold;
+    font-size: 1em;
+   }
+
+   
+   .details-small {
+    float: left;
+    margin-left: 5%;
+    margin-top: 0;
+   
+   }
+
+   .icona-social {
+    float: left;
+    margin-left: 10%;
+    
+   }
+}
