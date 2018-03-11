@@ -27,7 +27,7 @@
 }
 
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 600px) {
 
 /**********************************************
  ABOUT
@@ -84,5 +84,9 @@
     float: left;
     margin-left: 10%;
     
+   }
+
+   .row {
+    padding: 115px 0 100px;
    }
 }
